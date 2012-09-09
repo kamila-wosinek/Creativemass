@@ -1,0 +1,92 @@
+html {
+    background-image: url("../test/images/bg.jpg");
+}
+body {
+    width: 996px;
+    margin: auto;
+}
+
+/* Header */
+header{
+	height:163px;
+	background-image: url("../test/images/header.jpg");
+}
+
+nav ul {
+    display: block;
+	list-style: none;
+	margin: 0;
+	padding:75px 0 0;
+	text-align:center;
+	height:80px;
+	background-image: url("../test/images/menu.jpg");
+}
+
+nav ul li{
+    display: inline;
+	white-space: nowrap;
+	font-family: 'Calibri';
+	font-weight: bold;
+    font-size: 11px;
+    color: #ffffff;
+	margin:0 10px;
+    padding:0 15px 15px;
+	
+}
+nav ul li a {
+    text-decoration:none;
+	font-family: 'Calibri';
+	font-weight: bold;
+	font-size: 11px;
+    color: #ffffff;
+}
+
+nav ul li#service {
+	margin-right: 170px;
+}
+
+li:hover {
+    color: #f16c24;
+    background-image: url("../test/images/hover.png");
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+
+/* Site */
+
+div#site {
+    margin: 0 18px; 
+}
+
+h1 {
+    font-family: 'Calibri';
+	font-size: 22px;
+    color: #ffffff;
+	font-style:italic;
+}
+
+h2 {
+    font-family: 'Calibri';
+	font-size: 20px;
+    color: #fa8f37;
+}
+
+p {
+    font-family: 'Arial';
+	font-size: 11px;
+    color: #a8a8a8;
+}
+
+/* Footer */
+
+footer {
+    background-image: url("../test/images/footer-bg.jpg");
+	background-repeat:no-repeat;
+	
+	font-family: 'Arial';
+	font-size: 9px;
+    color: #a8a8a8;
+	
+	height: 63px;
+	padding:40px 0 0 18px;
+}
