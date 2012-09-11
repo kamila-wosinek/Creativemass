@@ -1,5 +1,5 @@
 html {
-    background-image: url("../test/images/bg.jpg");
+    background-image: url("images/bg.jpg");
 }
 body {
     width: 996px;
@@ -9,7 +9,7 @@ body {
 /* Header */
 header{
 	height:163px;
-	background-image: url("../test/images/header.jpg");
+	background-image: url("images/header.jpg");
 }
 
 nav ul {
@@ -19,7 +19,7 @@ nav ul {
 	padding:75px 0 0;
 	text-align:center;
 	height:80px;
-	background-image: url("../test/images/menu.jpg");
+	background-image: url("images/menu.jpg");
 }
 
 nav ul li{
@@ -47,7 +47,7 @@ nav ul li#service {
 
 li:hover {
     color: #f16c24;
-    background-image: url("../test/images/hover.png");
+    background-image: url("images/hover.png");
 	background-position:center bottom;
 	background-repeat:no-repeat;
 }
@@ -55,20 +55,21 @@ li:hover {
 /* Site */
 
 div#site {
-    margin: 0 18px; 
 }
 
 h1 {
-    font-family: 'Calibri';
+    font-family: 'myriad_proregular';
 	font-size: 22px;
     color: #ffffff;
 	font-style:italic;
+	font-weight:normal;
 }
 
 h2 {
-    font-family: 'Calibri';
+    font-family: 'myriad_proregular';
 	font-size: 20px;
     color: #fa8f37;
+	font-weight:normal;
 }
 
 p {
@@ -77,10 +78,61 @@ p {
     color: #a8a8a8;
 }
 
+img {
+    border: solid 1px #f16c24;
+	-webkit-border-radius: 8px;
+    border-radius: 8px; 
+	margin: 18px 18px 0 0;
+	float: left;
+}
+
+div#works {
+   
+}
+
+div#service {
+    padding: 0 18px;
+}
+
+div#about, div#contact,div#works {
+    background-image: url("images/about-bg.jpg");
+	background-repeat:no-repeat;
+	min-height:230px;
+	padding: 0 18px;
+}
+
+div#about{
+	margin-top:50px;
+	}
+
+div#about div {
+    display: block;
+    float: left;	
+}
+
+div#about div div {
+    float:left;
+}
+
+div#service div {
+    min-height: 150px;
+	
+}
+
+div#service div article {
+    padding-top:4px;
+	width: 500px;
+}
+
+div#works {
+    height: 360px;
+	margin-bottom: 20px;
+}
+
 /* Footer */
 
 footer {
-    background-image: url("../test/images/footer-bg.jpg");
+    background-image: url("images/footer-bg.jpg");
 	background-repeat:no-repeat;
 	
 	font-family: 'Arial';
