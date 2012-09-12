@@ -63,6 +63,7 @@ h1 {
     color: #ffffff;
 	font-style:italic;
 	font-weight:normal;
+	margin-top:0;
 }
 
 h2 {
@@ -70,6 +71,10 @@ h2 {
 	font-size: 20px;
     color: #fa8f37;
 	font-weight:normal;
+}
+
+h3 {
+
 }
 
 p {
@@ -86,49 +91,55 @@ img {
 	float: left;
 }
 
-div#works {
-   
+div#works ul li img {
+    margin: 6px;
 }
 
-div#service {
-    padding: 0 18px;
-}
 
 div#about, div#contact,div#works {
     background-image: url("images/about-bg.jpg");
 	background-repeat:no-repeat;
 	min-height:230px;
+}
+
+div#service,div#about, div#contact,div#works {
+    overflow:auto;
+	margin: 20px 0;
 	padding: 0 18px;
 }
 
-div#about{
-	margin-top:50px;
-	}
+html body div#site div#works ul  li{
+    list-style-type:none;
+}
 
-div#about div {
+article.cleaner {
+    clear:both;
+    width:630px;
+}
+
+article.cleaner div {
+    padding-top: 10px;
+}
+.clearfix:after {
+    content: ".";
     display: block;
-    float: left;	
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
 }
-
-div#about div div {
-    float:left;
+ 
+.clearfix {
+    display: inline-block;
 }
-
-div#service div {
-    min-height: 150px;
-	
+ 
+html[xmlns] .clearfix {
+    display: block;
 }
-
-div#service div article {
-    padding-top:4px;
-	width: 500px;
+ 
+* html .clearfix {
+    height: 1%;
 }
-
-div#works {
-    height: 360px;
-	margin-bottom: 20px;
-}
-
 /* Footer */
 
 footer {
