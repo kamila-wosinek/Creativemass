@@ -120,7 +120,6 @@ div#service,
 div#about,
 div#contact,
 div#works {
-    overflow:auto;
     margin: 20px 0;
     padding: 0 18px;
 }
@@ -129,12 +128,12 @@ div#works ul li{
     list-style-type:none;
 }
 
-article.cleaner {
+article {
     clear:both;
     width:630px;
 }
 
-article.cleaner div {
+article div {
     padding-top: 10px;
 }
 
