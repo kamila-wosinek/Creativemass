@@ -1,0 +1,279 @@
+html {
+    background-image: url("../images/bg.jpg");
+}
+body {
+    width: 996px;
+    margin: auto;
+}
+
+.left
+{
+	display: block;
+	float: left;
+}
+
+.right
+{
+    display: block;
+	float: right;
+}
+
+/* Header */
+header{
+	height:163px;
+	background-image: url("../images/header.jpg");
+}
+
+nav ul {
+    display: block;
+	list-style: none;
+	margin: 0;
+	padding:75px 0 0;
+	text-align:center;
+	height:80px;
+	background-image: url("../images/menu.jpg");
+}
+
+nav ul li{
+    display: inline;
+	white-space: nowrap;
+	font-family: 'Calibri';
+	font-weight: bold;
+    font-size: 11px;
+    color: #ffffff;
+	margin:0 10px;
+    padding:0 15px 15px;
+	
+}
+nav ul li a {
+    text-decoration:none;
+	font-family: 'Calibri';
+	font-weight: bold;
+	font-size: 11px;
+    color: #ffffff;
+}
+
+nav ul li.serviceLink {
+	margin-right: 170px;
+}
+
+li.active {
+    color: #f16c24;
+    background-image: url("../images/hover.png");
+	background-position:center bottom;
+	background-repeat:no-repeat;
+}
+
+li:hover
+{
+    text-shadow: 0px 0px 5px #f27311;
+}
+
+/* Site */
+
+.site {
+}
+
+h1 {
+    font-family: 'myriad_proregular';
+	font-size: 22px;
+    color: #ffffff;
+	font-style:italic;
+	font-weight:normal;
+	margin-top:0;
+}
+
+h2 {
+    font-family: 'myriad_proregular';
+	font-size: 20px;
+    color: #fa8f37;
+	font-weight:normal;
+}
+
+h3 {
+
+}
+
+p, span {
+    font-family: 'Arial';
+	font-size: 11px;
+    color: #a8a8a8;
+}
+
+img {
+    border: solid 1px #f16c24;
+	-webkit-border-radius: 8px;
+    border-radius: 8px; 
+	margin: 18px 18px 0 0;
+	float: left;
+}
+
+input.Input285
+{
+    background: url("../images/Input285.png") no-repeat scroll center center transparent;
+	padding: 5px;
+	width: 285px;
+	height: 35px;
+	border: none;
+	margin-top: 10px;
+}
+
+textarea.Textarea325
+{
+    background: url("../images/Textarea325.png") no-repeat scroll center center transparent;
+	padding: 5px;
+	width: 325px;
+	height: 170px;
+	border: none;
+	margin-top: 10px;
+}
+
+.works ul
+{
+    display: block;
+	float: left;
+	margin-bottom: 0;
+	padding-bottom: 15px;	
+	padding-left: 0;
+}
+
+.works ul li img {
+    margin: 16px 17px 13px 6px;
+}
+
+.works ul.smallImg
+{
+    width: 645px;
+	position: relative;
+	padding-left: 340px;
+	margin-top: 0px;
+}
+
+.works ul.smallImg li
+{
+	display: block;
+	float: left;
+}
+
+.works ul.smallImg img
+{
+    width: 135px;
+	height: 135px;
+}
+
+.works ul.smallImg .zoom
+{
+    position: absolute;
+	top: 0;
+	left: 0;
+	width: 301px;
+	height: 301px;
+}
+
+.about, .contact, .works {
+    background-image: url("../images/about-bg.jpg");
+	background-repeat:no-repeat;
+	min-height:230px;
+	width: 97%;
+}
+
+.service, .about, .contact, .works {
+	margin-top: 20px;
+	padding: 0 18px 20px;
+	display: block;
+	float: left;
+}
+
+.works ul  li{
+    list-style-type:none;
+}
+
+.service
+{
+	width: 60%;
+	display: block;
+	float: left;
+}
+
+.rightColumn
+{
+    width: 30%;
+	display: block;
+	float: right;
+	padding-right: 20px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.testimonials, .rewards
+{
+    display: block;
+	float: left;
+}
+
+.rightColumn .testimonials p
+{
+	background: url("../images/quotationMark.png") no-repeat scroll left top transparent;
+	font-style: italic;
+}
+
+.rightColumn .testimonials span strong
+{
+    color: #fa8f37;
+}
+
+.rightColumn .rewards
+{
+    margin-top: 20px;
+}
+
+.rightColumn .rewards img.rewardsImg
+{
+    border: none;
+	margin-top:0;
+}
+
+.rightColumn .rewards span
+{
+	font-family: 'myriad_proregular';
+	font-size: 20px;
+	color: #a8a8a8;
+}
+
+.underline
+{
+    background: url("../images/underlineh1.png") repeat-x scroll left bottom transparent;
+	padding-bottom: 10px;
+}
+
+article.cleaner {
+    clear:both;
+}
+
+article.cleaner div {
+    padding-top: 10px;
+}
+
+.contact .left
+{
+    width: 30%;
+}
+
+
+/* Footer */
+
+footer {
+    display: block;
+	float: left;
+	width: 100%;
+	
+	background-image: url("../images/footer-bg.jpg");
+	background-repeat:no-repeat;
+	
+	font-family: 'Arial';
+	font-size: 9px;
+    color: #a8a8a8;
+	
+	height: 63px;
+	padding:40px 0 0 18px;
+}

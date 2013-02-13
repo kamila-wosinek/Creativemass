@@ -2,116 +2,122 @@
 <head>
 	<meta charset="UTF-8">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-	<script src="script.js"></script>
+	<script src="js/main.js"></script>
 	<meta name="Description" content="Strona testowa" />
 	<meta name="Keywords" content="test" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<link rel="stylesheet" href="font/stylesheet.css" type="text/css" charset="utf-8" />
-	<title>Creativemass</title>
-
+	
+	<title> Creativemass</title>
+	
 </head>
 <body>
 	<header>
-
+		
 	</header>
 	<nav>
 		<ul>
-			<li><a href="../Creativemass/index.html">WORK</a></li>
-			<li id="service"><a href="service.html">SERVICES</a></li>
+			<li class="Active"><a href="../Creativemass/index.html">WORK</a></li>
+			<li class="serviceLink"><a href="service.html">SERVICES</a></li>
 			<li><a href="about.html">ABOUT</a></li>
 			<li><a href="contact.html">CONTACT</a></li>
 		</ul>
 	</nav>
-	<div id="site">
-	    <div id="works" class="clearfix">
+	<div class="site">
+	    <div class='works'>
 			<h1>latest works</h1>
-			<ul><li>
-			<img src="images/galery-img-big.jpg" alt="image1_galery"/></li></ul>
-			<ul>
-			<li><img src="images/gallery-img-1.jpg" alt="image2_galery"/></li>
-			<li><img src="images/gallery-img-2.jpg" alt="image3_galery"/></li>
-			<li><img src="images/gallery-img-3.jpg" alt="image4_galery"/></li>
-			<li><img src="images/gallery-img-4.jpg" alt="image5_galery"/></li>
-			<li><img src="images/gallery-img-5.jpg" alt="image6_galery"/></li>
-			<li><img src="images/gallery-img-6.jpg" alt="image7_galery"/></li>
-			<li><img src="images/gallery-img-7.jpg" alt="image8_galery"/></li>
-			<li><img src="images/gallery-img-8.jpg" alt="image9_galery"/></li>
+			<ul class="smallImg right">
+			    <li><img src="images/galery-img-big.jpg" class="zoom" alt="image1_galery"/></li>
+			    <li><img src="images/gallery-img-1.jpg" alt="image2_galery"/></li>
+			    <li><img src="images/gallery-img-2.jpg" alt="image3_galery"/></li>
+			    <li><img src="images/gallery-img-3.jpg" alt="image4_galery"/></li>
+			    <li><img src="images/gallery-img-4.jpg" alt="image5_galery"/></li>
+			    <li><img src="images/gallery-img-5.jpg" alt="image6_galery"/></li>
+			    <li><img src="images/gallery-img-6.jpg" alt="image7_galery"/></li>
+			    <li><img src="images/gallery-img-7.jpg" alt="image8_galery"/></li>
+			    <li><img src="images/gallery-img-8.jpg" alt="image9_galery"/></li>
 			</ul>
-
+			
 		</div>
-
-		<div id="service">
-      <aside class="sidebar">
-        <div id="testimonials" class="box">
-          <h2></h2>
-        </div>
-      </aside>
-	    <h1>Service</h1>
-
-			<article class="clearfix">
-        <img src="images/service-img1.jpg" alt="image1_service"/>
-
-        <div>
-          <h2>animation</h2>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-          when an unknown printer took a galley of type and scrambled it to make a type
-          specimen book. It has survived not only five centuries, but also the leap into
-          electronic typesetting.</p>
-        </div>
-      </article>
-
-		  <article class="clearfix">
-        <img src="images/service-img2.jpg" alt="image2_service"/>
-
-        <div>
-          <h2>filming and animation</h2>
-
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
-          a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-          looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
-        </div>
-      </article>
-
-      <article class="clearfix">
-        <img src="images/service-img3.jpg" alt="image3_service"/>
-
-        <div>
-          <h2>producing</h2>
-
-          <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in
-          a piece of classical Latin literature from 45 BC, making it over 2000 years old.
-          Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,
-          looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p>
-        </div>
-      </article>
-    </div>
-
-		<div id="about">
+		
+		<div class="service">
+	        <h1 class="underline">Service</h1>
+			
+			<article article class='cleaner'><img src="images/service-img1.jpg" alt="image1_service"/> 
+			
+			<div><h2>animation</h2>
+			
+		    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+		    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+		    when an unknown printer took a galley of type and scrambled it to make a type 
+		    specimen book. It has survived not only five centuries, but also the leap into 
+		    electronic typesetting.</p></div></article>
+			
+		    <article article class='cleaner'><img src="images/service-img2.jpg" alt="image2_service"/> 
+			
+			<div><h2>filming and animation</h2>
+			
+		    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in 
+		    a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+		    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+		    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p></div></article>
+		    
+			<article class='cleaner'><img src="images/service-img3.jpg" alt="image3_service"/>
+			
+			<div><h2>producing</h2>
+						
+		    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in 
+		    a piece of classical Latin literature from 45 BC, making it over 2000 years old. 
+		    Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, 
+		    looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.</p></div></article>
+	    </div>
+		
+		<div class="rightColumn">
+		    <div class="testimonials">
+			    <h1 class="underline">testimonials</h1>
+		    	<p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur”</p>
+				<span class="right"><strong>John Doe</strong> - InspiredCore.com</span>
+		    </div>
+			<div class="rewards">
+				<h1 class="underline">rewards</h1>
+				<img src="images/RewardsImg.png" class="rewardsImg" alt="rewards" />
+				<span>Academy Award for Best Animated Short Film</span>
+			</div>
+		</div>
+		
+		<div class='about'>	
 
 			<h1>About us</h1>
-
-			<article class="clearfix">
-        <img src="images/about-img.jpg" alt="image_about"/>
-
-        <div>
-          <h2>Lorem ipsum dolor sit ametnulla</h2>
-
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-          laboris nisi.</p>
-        </div>
-      </article>
+		    
+			<article class='cleaner'> <img src="images/about-img.jpg" alt="image_about"/> 
+			
+			<div>
+			<h2>Lorem ipsum dolor sit ametnulla</h2>
+			
+		    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
+			incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+			Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+			ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+			laboris nisi.</p></article>
+			</div>
 		</div>
-
-		<div id="contact">
+		
+		<div class='contact'>
 		    <h1>Contact</h1>
+			<div class="left">
+			    <input class="Input285" placeholder="Full name"/>
+			    <input class="Input285" placeholder="Email address"/>
+			    <input class="Input285" placeholder="Subject"/>
+				<button class="">Send</button>
+			</div>
+			<div class="left">
+			    <textarea class="Textarea325"></textarea>
+            </div>			
 		</div>
 	</div>
+	
+	
 	<footer>
 	    © 2011 Your Company. All Rights Reserved.
 	</footer>
