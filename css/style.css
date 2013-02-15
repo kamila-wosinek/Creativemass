@@ -127,8 +127,7 @@ textarea.Textarea325
     display: block;
 	float: left;
 	margin-bottom: 0;
-	padding-bottom: 15px;	
-	padding-left: 0;
+	padding: 0 0 15px;
 }
 
 .works ul li img {
@@ -155,8 +154,7 @@ textarea.Textarea325
 	height: 135px;
 }
 
-.works ul.smallImg .zoom
-{
+.works ul.smallImg .zoom {
     position: absolute;
 	top: 0;
 	left: 0;
@@ -174,17 +172,15 @@ textarea.Textarea325
 	padding: 0 18px 20px;
 }
 
-.works ul  li{
+.works ul  li {
     list-style-type:none;
 }
 
-.service
-{
+.service {
 	width: 60%;
 }
 
-.rightColumn
-{
+.rightColumn {
     width: 30%;
 	padding-right: 20px;
 	margin-top: 20px;
@@ -192,36 +188,30 @@ textarea.Textarea325
 }
 
 
-.rightColumn .testimonials p
-{
+.rightColumn .testimonials p {
 	background: url("../images/quotationMark.png") no-repeat scroll left top transparent;
 	font-style: italic;
 }
 
-.rightColumn .testimonials span strong
-{
+.rightColumn .testimonials span strong {
     color: #fa8f37;
 }
 
-.rightColumn .rewards
-{
+.rightColumn .rewards {
     margin-top: 20px;
 }
 
-.rightColumn .rewards img.rewardsImg
-{
+.rightColumn .rewards img.rewardsImg {
     border: none;
 	margin-top:0;
 }
 
-.rightColumn .rewards span
-{
+.rightColumn .rewards span {
 	font: 20px 'myriad_proregular';
 	color: #a8a8a8;
 }
 
-.underline
-{
+.underline {
     background: url("../images/underlineh1.png") repeat-x scroll left bottom transparent;
 	padding-bottom: 10px;
 }
@@ -234,21 +224,18 @@ article.cleaner div {
     padding-top: 10px;
 }
 
-.contact .left
-{
+.contact .left {
     width: 30%;
 }
 
-.contact button.ContactBtn
-{
-	margin-top: 15px;
+.contact button.ContactBtn {
+	margin: 15px 0 3px 0;
 	padding: 0;
 	border: none;
 	background-color: transparent;
 }
 
-.contact button.ContactBtn span.LeftOrangeBtn
-{
+.contact button.ContactBtn span.LeftOrangeBtn {
     background: url("../images/OrangeBtnLeft.png") no-repeat scroll left bottom transparent;
 	width: auto;
 	padding: 0 12px 0 20px;
@@ -258,24 +245,20 @@ article.cleaner div {
     filter: dropshadow(color=#ca4e11, offx=1, offy=0);
 }
 
-.contact button.ContactBtn span.RightOrangeBtn
-{
+.contact button.ContactBtn span.RightOrangeBtn {
     background: url("../images/OrangeBtnRight.png") no-repeat scroll left bottom transparent;
 	width: 8px;
 	height: 30px;
 }
 
-.contact .withMargin
-{
+.contact .withMargin {
 	margin-left: 20px;
 	width: 35%;
 }
 
-.contact .smaller.withMargin
-{
+.contact .smaller.withMargin {
     width: 25%;
-	margin-top: 10px;
-	margin-left: 10px;
+	margin: 10px 0 10px 0;
 }
 
 
